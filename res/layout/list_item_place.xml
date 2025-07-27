@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/placeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/placeDivision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/placeDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/placeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+        <TextView
+            android:id="@+id/placeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+        <!-- Tourist Spot Only: Hotel Name -->
+        <TextView
+            android:id="@+id/hotelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearest Hotel:"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Tourist Spot Only: Hotel Contact -->
+        <TextView
+            android:id="@+id/hotelContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Contact:"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Eco Resort Only: Resort Contact -->
+        <TextView
+            android:id="@+id/resortContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resort Contact:"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Map Button -->
+        <Button
+            android:id="@+id/mapButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View on Map"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+</ScrollView>
